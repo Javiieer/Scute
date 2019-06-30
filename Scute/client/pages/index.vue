@@ -101,7 +101,20 @@ color: white;
   opacity: .70;
   left: 33%;
   top: 120px ;
+/* responsive screen by: javier sanchez */
+/* estilo para tablets */
+@media only screen and (min-width: 768px) and (max-width: 940px){
+  #formu{
+  height: 600;
+  }
+}
+/* estilo para moviles */
 
+@media only screen and (min-width: 400px) and (max-width: 767px){
+  #formu{
+  height: 600;
+  }
+}
 }
 
 #formu input{
